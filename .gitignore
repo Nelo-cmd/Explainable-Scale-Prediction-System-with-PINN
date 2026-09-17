@@ -1,0 +1,27 @@
+# Generated files
+*.png
+*.docx
+__pycache__/
+*.pyc
+
+# Data (too large / private)
+data/
+
+# Old single-model weights (superseded by ensemble)
+models/hybrid_pinn.pth
+models/hybrid_pinn_finetuned.pth
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Python
+*.egg-info/
+dist/
+build/
+venv/
+.env
